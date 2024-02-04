@@ -29,6 +29,6 @@ if (isset($_GET['term'])) {
     echo json_encode($datos);
     die();
 } else {
-    echo 'error';
+    echo 'Error en el ajax';
 }
 ?>
