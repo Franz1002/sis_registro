@@ -30,5 +30,6 @@ if (isset($_GET['term'])) {
     die();
 } else {
     echo 'Error en el ajax';
+    
 }
 ?>
