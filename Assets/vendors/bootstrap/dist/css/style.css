@@ -1,0 +1,157 @@
+.required {
+	color: red;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.required2 {
+	color: rgb(226, 4, 4);
+	font-size: 12pt;
+	font-weight: 500;
+	font-style: italic;
+
+}
+
+.headerRegister,
+.header-primary {
+	background: linear-gradient(to bottom, #673a6f, #9b3c7d);
+	color: #FFF;
+
+}
+
+.headerUpdate {
+	background: #c200c2;
+	color: #FFF;
+}
+
+/* Estilos para el campo de carga de archivos */
+.custom-file-input {
+	width: 300px;
+	/* Ancho personalizado */
+	height: 40px;
+	/* Altura personalizada */
+	padding: 10px;
+	/* Espacio alrededor del campo */
+	border: 1px solid #ccc;
+	/* Borde del campo */
+	border-radius: 5px;
+	/* Bordes redondeados */
+	background-color: #fff;
+	/* Color de fondo */
+}
+
+.archivo-enlace {
+	display: flex;
+	align-items: center;
+	/* Centrar verticalmente */
+}
+
+/* Estilos para el ícono */
+.archivo-enlace i {
+	font-size: 71px;
+	/* Tamaño del ícono */
+	margin-right: 20px;
+	/* Espacio entre el ícono y el nombre del archivo */
+	margin-left: 170px;
+}
+
+/* Estilos para el dashboard */
+
+
+.dashboard-card {
+	background: linear-gradient(to bottom, #753081, #bb4d98);
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+	transition: transform 0.2s, box-shadow 0.2s;
+	height: 300px;
+	/* Ajusta la altura de los cards */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.dashboard-card:hover {
+	transform: scale(1.02);
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-title-white {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 1rem 0 0.5rem;
+	/* Ajusta el margen superior */
+	align-self: center;
+}
+
+.card-divider {
+	border-top: 2px double white;
+	margin: 0.5rem auto;
+	width: 50%;
+}
+
+.card-content {
+	
+	background: linear-gradient(to bottom, #52275a, #862d6a);
+	border-radius: 15px;
+	padding-bottom: 14%;
+	transition: background-color 0.2s;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.card-content2 {
+	background: linear-gradient(to bottom, #52275a, #862d6a);
+
+	border-radius: 15px;
+	padding-top: 10%;
+	padding-bottom: 20%;
+	transition: background-color 0.2s;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.card-content:hover {
+	background-color: #5c6e80;
+}
+
+.card-content2:hover {
+	background-color: #5c6e80;
+}
+
+.card-total {
+	color: white;
+	font-size: 18px;
+	margin-bottom: 1rem;
+}
+
+.card-total-number {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.card-icon-link {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	transition: transform 0.2s, color 0.2s;
+	align-self: center;
+}
+
+.card-icon-link:hover {
+	transform: scale(1.1);
+	color: #dc00eb;
+}
+
+.card-icon {
+	font-size: 36px;
+}
+
